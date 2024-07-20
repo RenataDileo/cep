@@ -65,7 +65,6 @@ const todoForm = [cep, rua, estado, bairro, cidade, complemento];
 
     cep.addEventListener("keydown", (e) => {
         if (e.key === "Enter"){
-            alert("Vamos buscar o cep...")
             buscaCep(cep.value)
         }
     })
